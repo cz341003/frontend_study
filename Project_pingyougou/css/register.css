@@ -1,0 +1,146 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 82px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.logo {
+    padding-top: 10px;
+    display: block;
+}
+
+.registerarea {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+.registerarea_head {
+    height: 40px;
+    padding: 0 10px;
+    background-color: #ececec;
+    border-bottom: 1px solid #ccc;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.registerarea_head em {
+    float: right;
+    font-size: 14px;
+}
+
+.registerarea_head a {
+    color: #c81623;
+}
+
+.registerarea_body {
+    width: 580px;
+    height: 380px;
+    margin: 40px auto;
+}
+
+.head {
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: right;
+}
+
+.registerarea_body li {
+    margin-bottom: 10px;
+}
+
+.inp {
+    width: 240px;
+    height: 36px;
+    border: 1px solid #ccc;
+}
+
+.registerarea_info {
+    margin-left: 5px;
+    color: #df3033;
+}
+
+.registerarea_icon_error {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/error.png) no-repeat;
+    vertical-align: middle;
+}
+
+.registerarea_success {
+    color: #21a120;
+}
+
+.successs {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/success.png) no-repeat;
+    vertical-align: middle;
+}
+
+.check_password {
+    margin-left: 180px;
+    color: #b9b9b9;
+}
+
+.check_password .ruo {
+    padding: 0 12px;
+    color: #fff;
+    background-color: #de1111;
+}
+
+.check_password .zhong {
+    padding: 0 12px;
+    color: #fff;
+    background-color: #40b83f;
+}
+
+.check_password .qiang {
+    padding: 0 12px;
+    color: #fff;
+    background-color: #f79100;
+}
+
+.agree {
+    margin-left: 100px;
+}
+
+.agree input {
+    vertical-align: middle;
+}
+
+.agree a {
+    color: #93caf0;
+}
+
+.complete {
+    margin-left: 20px;
+    width: 200px;
+    height: 34px;
+    color: #fff;
+    border: none;
+    background-color: #c81623;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.footer {
+    padding-top: 20px;
+    height: 120px;
+    text-align: center;
+}
+
+.links {
+    height: 30px;
+}
+
+.copyright {
+    line-height: 20px;
+}

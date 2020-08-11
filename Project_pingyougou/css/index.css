@@ -1,0 +1,364 @@
+.main {
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.focus {
+    float: left;
+    position: relative;
+    width: 721px;
+    height: 455px;
+    overflow: hidden;
+}
+
+.focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+}
+
+.focus ul li {
+    float: left;
+}
+
+.arrow_l,
+.arrow_r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 25px;
+    font-family: icomoon;
+    background-color: rgba(0, 0, 0, .3);
+    z-index: 3;
+}
+
+.arrow_l {
+    left: 0;
+}
+
+.arrow_r {
+    right: 0;
+}
+
+.focus ol {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+.focus ol li {
+    float: left;
+    margin: 0 5px;
+    width: 8px;
+    height: 8px;
+    border: 1px solid rgba(255, 255, 255, .3);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.focus_dotted {
+    background-color: #fff;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 453px;
+}
+
+.news {
+    height: 163px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
+.news_hd {
+    height: 32px;
+    padding: 0 15px;
+    line-height: 32px;
+    border-bottom: 1px dotted #ccc;
+    font-size: 14px;
+    color: #333;
+}
+
+.news_hd a {
+    float: right;
+    font-size: 12px;
+    font-family: icomoon;
+}
+
+.news_bd {
+    padding: 10px 0 0 15px;
+}
+
+.news_bd ul li {
+    height: 23px;
+}
+
+.lifeservice {
+    overflow: hidden;
+    height: 208px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice li {
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.lifeservice li a {
+    position: relative;
+    display: block;
+    /* overflow: hidden; 解决i 引起的 外边距塌陷合并的问题*/
+    overflow: hidden;
+    height: 100%;
+}
+
+.lifeservice li p {
+    text-align: center;
+}
+
+.hot {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 12px;
+    height: 15px;
+    background: url(../img/jian.jpg) no-repeat;
+}
+
+.service_ico {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../img/icons.png) no-repeat;
+    margin: 10px auto;
+}
+
+.service_ico_huafei {
+    background-position: -17px -16px;
+}
+
+.hot {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 12px;
+    height: 15px;
+    background: url(../img/jian.jpg) no-repeat;
+}
+
+.bargin {
+    margin-top: 5px;
+}
+
+.recommend {
+    height: 162px;
+    margin-top: 12px;
+}
+
+.recom-hd {
+    float: left;
+    width: 200px;
+    height: 163px;
+    text-align: center;
+    background-color: #5c5251;
+}
+
+.recom-hd img {
+    margin: 30px 0 10px 0;
+}
+
+.recom-hd p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.recom-bd {
+    float: right;
+    height: 163px;
+    width: 1000px;
+    background-color: #ebebeb;
+}
+
+.recom-bd li {
+    float: left;
+    width: 249px;
+    height: 145px;
+    border-right: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.recom-bd .last {
+    border-right: 0;
+}
+
+.box-hd {
+    height: 30px;
+    margin-top: 25px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box-hd h3 {
+    float: left;
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #c81623;
+}
+
+.tab-list {
+    float: right;
+}
+
+.tab-list ul li {
+    line-height: 30px;
+    color: #666;
+    float: left;
+}
+
+.tab-list li a {
+    margin: 0 15px;
+}
+
+.box-bd {
+    height: 360px;
+}
+
+.w210 {
+    width: 210px;
+}
+
+.w329 {
+    width: 329px;
+}
+
+.w219 {
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+
+.w220 {
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+
+.tab-content li {
+    float: left;
+    height: 360px;
+}
+
+.tab-con-list {
+    background-color: #f9f9f9;
+}
+
+.tab-con-list li {
+    width: 85px;
+    height: 32px;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 32px;
+    color: #666;
+    border-bottom: 1px solid #ccc;
+}
+
+.tab-con-list ul {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.w329 {
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -30px;
+    width: 100px;
+    height: 15px;
+    line-height: 15pc;
+}
+
+.w329 .circle li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border: 2px solid rgba(255, 255, 255, .3);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.w329 .circle .current {
+    background-color: #fff;
+}
+
+.w219 img,
+.w220 img {
+    border-bottom: 1px solid #ccc;
+}
+
+.fixtool {
+    display: none;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    margin-left: -686px;
+    background-color: #fff;
+}
+
+.fixtool li {
+    width: 66px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.fixtool li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.currents {
+    background-color: #c81623;
+    color: #fff!important;
+}
+
+.currents a {
+    color: #fff;
+}
+
+.box-bd li {
+    overflow: hidden;
+}
+
+.box-bd img {
+    /*过渡写到本身上， 谁做动画，给谁加*/
+    transition: all .2s;
+}
+
+
+/*我们鼠标经过图片 往右走 8px*/
+
+.box-bd img:hover {
+    margin-left: 8px;
+}

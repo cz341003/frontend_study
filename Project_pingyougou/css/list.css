@@ -1,0 +1,158 @@
+.header {
+    position: relative;
+}
+
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 183px;
+    padding: 4px 14px;
+    border-left: 1px solid #b1191a;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list li {
+    float: left;
+    margin: 0 25px;
+    line-height: 45px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con li {
+    float: left;
+    margin: 0 25px;
+    line-height: 45px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: icomoon;
+    color: #adadad;
+}
+
+.sk_bd {
+    margin-top: 25px;
+}
+
+.sk_goods {
+    position: relative;
+    float: left;
+    width: 288px;
+    height: 458px;
+    margin-right: 12px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+}
+
+.sk_bd ul {
+    width: 1212px;
+}
+
+.sk_goods:hover {
+    border: 1px solid #b1191a;
+}
+
+.sk_goods h5 {
+    padding: 0 12px;
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #989898;
+}
+
+.sk_goods p {
+    margin: 10px 0;
+    color: #e82633;
+    padding: 0 12px;
+}
+
+.sk_goods p em {
+    font-size: 18px;
+    color: #e82633;
+}
+
+.sk_goods p del {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #ababab;
+}
+
+.sk_goods_progress {
+    padding: 0 12px;
+}
+
+.sk_goods_progress .sk_nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px;
+    width: 130px;
+    height: 10px;
+    border: 1px solid #b1191a;
+    border-radius: 5px;
+}
+
+.sk_nav_con {
+    width: 80%;
+    height: 10px;
+    background-color: #b1191a;
+}
+
+.sk_goods_buy {
+    position: absolute;
+    bottom: 0;
+    width: 288px;
+    height: 49px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 49px;
+    background-color: #b1191a;
+}
+
+.page {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.page_num a {
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+    line-height: 36px;
+    border: 1px solid #ccc;
+}
+
+.page_num .page_num_prev,
+.page_num .page_num_next {
+    width: 72px;
+}
+
+.page .page_num .current,
+.page .page_num .elp {
+    border: 1px solid transparent;
+}
+
+.page_skip input {
+    width: 80px;
+    height: 36px;
+    text-align: center;
+    border: 1px solid #ccc;
+    transition: all 0.3s;
+}
+
+.page_skip input:focus {
+    width: 90px;
+    border: 1px solid skyblue;
+}
+
+.page_skip button {
+    width: 42px;
+    height: 36px;
+}
